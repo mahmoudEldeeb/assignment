@@ -1,0 +1,4 @@
+#Tue Dec 31 20:24:01 EET 2019
+base.0=F\:\\android_work\\nageh\\last\\last\\May App3\\MyApplication7\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

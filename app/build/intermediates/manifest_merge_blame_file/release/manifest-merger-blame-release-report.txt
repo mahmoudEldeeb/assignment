@@ -1,0 +1,180 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="uk.ac.shef.oak.com4510"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->F:\android_work\nageh\last\last\May App3\MyApplication7\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->F:\android_work\nageh\last\last\May App3\MyApplication7\app\src\main\AndroidManifest.xml
+10    <!--
+11         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+12         Google Maps Android API v2, but you must specify either coarse or fine
+13         location permissions for the 'MyLocation' functionality.
+14    -->
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->F:\android_work\nageh\last\last\May App3\MyApplication7\app\src\main\AndroidManifest.xml:9:5-80
+15-->F:\android_work\nageh\last\last\May App3\MyApplication7\app\src\main\AndroidManifest.xml:9:22-77
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->F:\android_work\nageh\last\last\May App3\MyApplication7\app\src\main\AndroidManifest.xml:10:5-81
+16-->F:\android_work\nageh\last\last\May App3\MyApplication7\app\src\main\AndroidManifest.xml:10:22-78
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+17-->F:\android_work\nageh\last\last\May App3\MyApplication7\app\src\main\AndroidManifest.xml:11:5-79
+17-->F:\android_work\nageh\last\last\May App3\MyApplication7\app\src\main\AndroidManifest.xml:11:22-76
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->F:\android_work\nageh\last\last\May App3\MyApplication7\app\src\main\AndroidManifest.xml:12:5-67
+18-->F:\android_work\nageh\last\last\May App3\MyApplication7\app\src\main\AndroidManifest.xml:12:22-64
+19    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+19-->F:\android_work\nageh\last\last\May App3\MyApplication7\app\src\main\AndroidManifest.xml:13:5-81
+19-->F:\android_work\nageh\last\last\May App3\MyApplication7\app\src\main\AndroidManifest.xml:13:22-78
+20
+21    <!-- Include required permissions for Google Maps API to run. -->
+22    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+22-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\m_eldeeb\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+22-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\m_eldeeb\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+23
+24    <uses-feature
+24-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\m_eldeeb\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+25        android:glEsVersion="0x00020000"
+25-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\m_eldeeb\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+26        android:required="true" />
+26-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\m_eldeeb\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+27
+28    <application
+28-->F:\android_work\nageh\last\last\May App3\MyApplication7\app\src\main\AndroidManifest.xml:15:5-58:19
+29        android:allowBackup="true"
+29-->F:\android_work\nageh\last\last\May App3\MyApplication7\app\src\main\AndroidManifest.xml:16:9-35
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.1.0] C:\Users\m_eldeeb\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:18-86
+31        android:icon="@mipmap/ic_launcher"
+31-->F:\android_work\nageh\last\last\May App3\MyApplication7\app\src\main\AndroidManifest.xml:17:9-43
+32        android:label="@string/app_name"
+32-->F:\android_work\nageh\last\last\May App3\MyApplication7\app\src\main\AndroidManifest.xml:18:9-41
+33        android:roundIcon="@mipmap/ic_launcher_round"
+33-->F:\android_work\nageh\last\last\May App3\MyApplication7\app\src\main\AndroidManifest.xml:19:9-54
+34        android:supportsRtl="true"
+34-->F:\android_work\nageh\last\last\May App3\MyApplication7\app\src\main\AndroidManifest.xml:20:9-35
+35        android:theme="@style/AppTheme"
+35-->F:\android_work\nageh\last\last\May App3\MyApplication7\app\src\main\AndroidManifest.xml:21:9-40
+36        android:usesCleartextTraffic="true" >
+36-->F:\android_work\nageh\last\last\May App3\MyApplication7\app\src\main\AndroidManifest.xml:22:9-44
+37        <activity android:name="uk.ac.shef.oak.com4510.view.activities.UpdateVisitActivity" />
+37-->F:\android_work\nageh\last\last\May App3\MyApplication7\app\src\main\AndroidManifest.xml:23:9-82
+37-->F:\android_work\nageh\last\last\May App3\MyApplication7\app\src\main\AndroidManifest.xml:23:19-70
+38        <activity android:name="uk.ac.shef.oak.com4510.view.activities.ShowVisitDataActivity" />
+38-->F:\android_work\nageh\last\last\May App3\MyApplication7\app\src\main\AndroidManifest.xml:24:9-75
+38-->F:\android_work\nageh\last\last\May App3\MyApplication7\app\src\main\AndroidManifest.xml:24:19-72
+39        <!--
+40             The API key for Google Maps-based APIs is defined as a string resource.
+41             (See the file "res/values/google_maps_api.xml").
+42             Note that the API key is linked to the encryption key used to sign the APK.
+43             You need a different API key for each encryption key, including the release key that is used to
+44             sign the APK for publishing.
+45             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+46        -->
+47        <activity android:name="uk.ac.shef.oak.com4510.view.activities.FullImageActivity" />
+47-->F:\android_work\nageh\last\last\May App3\MyApplication7\app\src\main\AndroidManifest.xml:33:9-71
+47-->F:\android_work\nageh\last\last\May App3\MyApplication7\app\src\main\AndroidManifest.xml:33:19-68
+48        <activity android:name="uk.ac.shef.oak.com4510.view.activities.PathActivity" />
+48-->F:\android_work\nageh\last\last\May App3\MyApplication7\app\src\main\AndroidManifest.xml:34:9-66
+48-->F:\android_work\nageh\last\last\May App3\MyApplication7\app\src\main\AndroidManifest.xml:34:19-63
+49        <activity android:name="uk.ac.shef.oak.com4510.view.activities.AllPathImagesActivity" />
+49-->F:\android_work\nageh\last\last\May App3\MyApplication7\app\src\main\AndroidManifest.xml:35:9-75
+49-->F:\android_work\nageh\last\last\May App3\MyApplication7\app\src\main\AndroidManifest.xml:35:19-72
+50        <activity android:name="uk.ac.shef.oak.com4510.view.activities.ImageDescriptionActivity" />
+50-->F:\android_work\nageh\last\last\May App3\MyApplication7\app\src\main\AndroidManifest.xml:36:9-78
+50-->F:\android_work\nageh\last\last\May App3\MyApplication7\app\src\main\AndroidManifest.xml:36:19-75
+51        <activity android:name="uk.ac.shef.oak.com4510.view.activities.SpecificPathActivity" />
+51-->F:\android_work\nageh\last\last\May App3\MyApplication7\app\src\main\AndroidManifest.xml:37:9-74
+51-->F:\android_work\nageh\last\last\May App3\MyApplication7\app\src\main\AndroidManifest.xml:37:19-71
+52        <activity android:name="uk.ac.shef.oak.com4510.view.activities.AllImagesActivity" />
+52-->F:\android_work\nageh\last\last\May App3\MyApplication7\app\src\main\AndroidManifest.xml:38:9-71
+52-->F:\android_work\nageh\last\last\May App3\MyApplication7\app\src\main\AndroidManifest.xml:38:19-68
+53        <activity android:name="uk.ac.shef.oak.com4510.view.activities.selectActivity" />
+53-->F:\android_work\nageh\last\last\May App3\MyApplication7\app\src\main\AndroidManifest.xml:39:9-68
+53-->F:\android_work\nageh\last\last\May App3\MyApplication7\app\src\main\AndroidManifest.xml:39:19-65
+54        <activity android:name="uk.ac.shef.oak.com4510.view.activities.Main2Activity" >
+54-->F:\android_work\nageh\last\last\May App3\MyApplication7\app\src\main\AndroidManifest.xml:40:9-46:20
+54-->F:\android_work\nageh\last\last\May App3\MyApplication7\app\src\main\AndroidManifest.xml:40:19-64
+55
+56            <!-- <intent-filter> -->
+57            <!-- <action android:name="android.intent.action.MAIN" /> -->
+58            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+59            <!-- </intent-filter> -->
+60        </activity>
+61        <activity android:name="uk.ac.shef.oak.com4510.view.activities.MainActivity" >
+61-->F:\android_work\nageh\last\last\May App3\MyApplication7\app\src\main\AndroidManifest.xml:47:9-53:20
+61-->F:\android_work\nageh\last\last\May App3\MyApplication7\app\src\main\AndroidManifest.xml:47:19-63
+62            <intent-filter>
+62-->F:\android_work\nageh\last\last\May App3\MyApplication7\app\src\main\AndroidManifest.xml:48:13-52:29
+63                <action android:name="android.intent.action.MAIN" />
+63-->F:\android_work\nageh\last\last\May App3\MyApplication7\app\src\main\AndroidManifest.xml:49:17-69
+63-->F:\android_work\nageh\last\last\May App3\MyApplication7\app\src\main\AndroidManifest.xml:49:25-66
+64
+65                <category android:name="android.intent.category.LAUNCHER" />
+65-->F:\android_work\nageh\last\last\May App3\MyApplication7\app\src\main\AndroidManifest.xml:51:17-77
+65-->F:\android_work\nageh\last\last\May App3\MyApplication7\app\src\main\AndroidManifest.xml:51:27-74
+66            </intent-filter>
+67        </activity>
+68
+69        <meta-data
+69-->F:\android_work\nageh\last\last\May App3\MyApplication7\app\src\main\AndroidManifest.xml:55:9-57:71
+70            android:name="com.google.android.geo.API_KEY"
+70-->F:\android_work\nageh\last\last\May App3\MyApplication7\app\src\main\AndroidManifest.xml:56:13-58
+71            android:value="AIzaSyBA4l2ccWuUeypicsqAh61brZLHc5bO6Pg" />
+71-->F:\android_work\nageh\last\last\May App3\MyApplication7\app\src\main\AndroidManifest.xml:57:13-68
+72        <!-- Needs to be explicitly declared on P+ -->
+73        <uses-library
+73-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\m_eldeeb\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+74            android:name="org.apache.http.legacy"
+74-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\m_eldeeb\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+75            android:required="false" />
+75-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\m_eldeeb\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+76
+77        <service
+77-->[androidx.room:room-runtime:2.2.1] C:\Users\m_eldeeb\.gradle\caches\transforms-2\files-2.1\eb8d5744ff3e68b42433535f7a761baa\room-runtime-2.2.1\AndroidManifest.xml:25:9-27:40
+78            android:name="androidx.room.MultiInstanceInvalidationService"
+78-->[androidx.room:room-runtime:2.2.1] C:\Users\m_eldeeb\.gradle\caches\transforms-2\files-2.1\eb8d5744ff3e68b42433535f7a761baa\room-runtime-2.2.1\AndroidManifest.xml:26:13-74
+79            android:exported="false" />
+79-->[androidx.room:room-runtime:2.2.1] C:\Users\m_eldeeb\.gradle\caches\transforms-2\files-2.1\eb8d5744ff3e68b42433535f7a761baa\room-runtime-2.2.1\AndroidManifest.xml:27:13-37
+80
+81        <provider
+81-->[com.squareup.picasso:picasso:2.71828] C:\Users\m_eldeeb\.gradle\caches\transforms-2\files-2.1\ed4dbb87b1bb4120f37ad8218c72e144\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+82            android:name="com.squareup.picasso.PicassoProvider"
+82-->[com.squareup.picasso:picasso:2.71828] C:\Users\m_eldeeb\.gradle\caches\transforms-2\files-2.1\ed4dbb87b1bb4120f37ad8218c72e144\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+83            android:authorities="uk.ac.shef.oak.com4510.com.squareup.picasso"
+83-->[com.squareup.picasso:picasso:2.71828] C:\Users\m_eldeeb\.gradle\caches\transforms-2\files-2.1\ed4dbb87b1bb4120f37ad8218c72e144\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+84            android:exported="false" />
+84-->[com.squareup.picasso:picasso:2.71828] C:\Users\m_eldeeb\.gradle\caches\transforms-2\files-2.1\ed4dbb87b1bb4120f37ad8218c72e144\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+85
+86        <activity
+86-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\m_eldeeb\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+87            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+87-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\m_eldeeb\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+88            android:exported="false"
+88-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\m_eldeeb\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+89            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+89-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\m_eldeeb\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+90
+91        <meta-data
+91-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\m_eldeeb\.gradle\caches\transforms-2\files-2.1\bfe771b112eadd62544c5614fbc68b91\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+92            android:name="com.google.android.gms.version"
+92-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\m_eldeeb\.gradle\caches\transforms-2\files-2.1\bfe771b112eadd62544c5614fbc68b91\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+93            android:value="@integer/google_play_services_version" />
+93-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\m_eldeeb\.gradle\caches\transforms-2\files-2.1\bfe771b112eadd62544c5614fbc68b91\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+94
+95        <provider
+95-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\m_eldeeb\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+96            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+96-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\m_eldeeb\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+97            android:authorities="uk.ac.shef.oak.com4510.lifecycle-process"
+97-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\m_eldeeb\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+98            android:exported="false"
+98-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\m_eldeeb\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+99            android:multiprocess="true" />
+99-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\m_eldeeb\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+100    </application>
+101
+102</manifest>

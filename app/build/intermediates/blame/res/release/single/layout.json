@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "F:\\android_work\\nageh\\last\\last\\May App3\\MyApplication7\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\visit_row.xml",
+        "source": "F:\\android_work\\nageh\\last\\last\\May App3\\MyApplication7\\app\\src\\main\\res\\layout\\visit_row.xml"
+    },
+    {
+        "merged": "F:\\android_work\\nageh\\last\\last\\May App3\\MyApplication7\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_update_visit.xml",
+        "source": "F:\\android_work\\nageh\\last\\last\\May App3\\MyApplication7\\app\\src\\main\\res\\layout\\activity_update_visit.xml"
+    },
+    {
+        "merged": "F:\\android_work\\nageh\\last\\last\\May App3\\MyApplication7\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_show_visit_data.xml",
+        "source": "F:\\android_work\\nageh\\last\\last\\May App3\\MyApplication7\\app\\src\\main\\res\\layout\\activity_show_visit_data.xml"
+    },
+    {
+        "merged": "F:\\android_work\\nageh\\last\\last\\May App3\\MyApplication7\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_main2.xml",
+        "source": "F:\\android_work\\nageh\\last\\last\\May App3\\MyApplication7\\app\\src\\main\\res\\layout\\activity_main2.xml"
+    },
+    {
+        "merged": "F:\\android_work\\nageh\\last\\last\\May App3\\MyApplication7\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "F:\\android_work\\nageh\\last\\last\\May App3\\MyApplication7\\app\\src\\main\\res\\layout\\activity_main.xml"
+    }
+]
