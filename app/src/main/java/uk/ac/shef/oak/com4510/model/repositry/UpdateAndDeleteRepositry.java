@@ -78,6 +78,7 @@ public class UpdateAndDeleteRepositry {
     /**
      *  this aasyncktask class to update visit  into database using background thread
      * @author Areej
+     * ///
      */
 
     private  class UpdateVistAsyncTask extends AsyncTask<Visit, Void, Void> {
